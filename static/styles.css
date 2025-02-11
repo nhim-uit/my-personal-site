@@ -1,3 +1,14 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-0.5%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -6,6 +17,7 @@ body {
     font-size: 13px;
     font-family: 'Vollkorn', serif;
     font-weight: 500;
+    animation: fadeIn 1s ease-in-out;
 }
 
 
