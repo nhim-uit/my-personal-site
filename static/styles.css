@@ -10,17 +10,18 @@
 }
 
 body {
+/*
     display: flex;
     justify-content: center;
     alight-items: center;
     margin: 0;
-    font-size: 13px;
+*/
     font-family: 'Vollkorn', serif;
-    font-weight: 500;
     animation: fadeIn 1s ease-in-out;
 }
 
 
+/*
 #main {
     margin: 0 auto;
     padding: 300px;
@@ -30,12 +31,12 @@ h1 {
     font-weight: 200;
     font-size: 20px;
 }
-
-h3 {
+*/
+h5 {
     font-family: 'VT323', 'Courier New', Courier, monospace;
     font-weight: 500;
 }
-
+/*
 .content {
     text-align: left;
     padding-left: 0;
@@ -43,7 +44,7 @@ h3 {
     position: relative;
     padding-right: 100px;
 }
-
+*/
 a {
     text-decoration: none;
     color: black;
@@ -56,18 +57,20 @@ a:hover {
 .content i {
     transform: rotate(-45deg);
     text-align: right;
-    position: absolute;
     right: 0;
     -webkit-text-stroke: 0.1px white; /* Make icon thinner */
+    float: right;
 }
 
 hr {
-    border-color: #ebebeb;
+    border-color: black;
     border-style: solid;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
+/*
 sup {
     margin-right: 0.5em;
 }
+*/
