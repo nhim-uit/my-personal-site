@@ -26,16 +26,12 @@ body {
     margin: 0 auto;
     padding: 300px;
 }
-
-h1 {
+*/
+#title {
     font-weight: 200;
     font-size: 20px;
 }
-*/
-h5 {
-    font-family: 'VT323', 'Courier New', Courier, monospace;
-    font-weight: 500;
-}
+
 /*
 .content {
     text-align: left;
@@ -74,3 +70,24 @@ sup {
     margin-right: 0.5em;
 }
 */
+
+#introduction {
+    font-size: 13px;
+}
+
+.head {
+    font-size: 17px;
+    font-family: 'VT323', 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+.content {
+    font-size: 13px;
+}
+
+#right {
+    border: none;
+    border-left: 1.5px solid #dcdcdc;
+    height: 85px;
+    margin: 0 20px;
+}
