@@ -10,14 +10,13 @@
 }
 
 body {
-/*
     display: flex;
     justify-content: center;
-    alight-items: center;
+    align-items: center;
     margin: 0;
-*/
     font-family: 'Vollkorn', serif;
     animation: fadeIn 1s ease-in-out;
+    background-color: #C7D9DD;
 }
 
 
@@ -31,7 +30,6 @@ body {
     font-weight: 200;
     font-size: 20px;
     font-family: 'Righteous', sans-serif;
-    font-style: normal;
 }
 
 /*
@@ -89,7 +87,6 @@ sup {
 
 #right {
     border: none;
-    border-left: 1.5px solid #dcdcdc;
     height: 85px;
     margin: 0 20px;
 }
